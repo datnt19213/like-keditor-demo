@@ -1,5 +1,3 @@
-import React from "react";
-
 import {SmartLayout} from "@kumodefe/rc-smart-layout";
 
 const Examples = () => {

@@ -1,5 +1,3 @@
-import React from "react";
-
 import {useNavigate} from "react-router";
 
 import {HyperText} from "@/components/magicui/hyper-text";
