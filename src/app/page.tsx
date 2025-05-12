@@ -8,9 +8,13 @@ import {
   Redo,
   Undo,
 } from 'lucide-react';
+import dynamic from 'next/dynamic';
 
-import PreviewSheet from '@/components/custom/preview';
 import { Button } from '@/components/ui/button';
+
+const PreviewSheet = dynamic(() => import('../components/custom/preview'), {
+  ssr: false,
+});
 
 export default function Home() {
 	const [html, setHTML] = useState("");
